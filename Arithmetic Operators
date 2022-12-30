@@ -1,0 +1,36 @@
+public class ArithmaticOperetors {
+	static int a=10;
+	static int b=20;
+	public static void main(String[] args) {
+		System.out.println("addition is:"+(a+b));
+		System.out.println("sub is:"+(b-a));
+		System.out.println("multiflication is:"+(a*b));
+		System.out.println("division is:"+(b/a));
+		System.out.println("Modulus is:"+(a%b));
+		}
+}
+
+============================================================================================================================================================............
+2)  
+public class ArithmaticOperetors {
+	static int a=100;
+	static int b=200;
+	int redius=50;
+	public void circle() {
+		double area = 3.14*redius;
+		System.out.println("Area of circle is:"+area);
+		}
+   public void rectangle() {
+		int area=a*b;
+		System.out.println("Area of rectangle is:"+area);
+	}
+   int parameter() {
+	return a+b+redius-20;
+	}
+   public static void main(String[] args) {
+	   ArithmaticOperetors ao=new ArithmaticOperetors();
+	   ao.circle();
+	   ao.rectangle();
+	  System.out.println( ao.parameter());
+}
+}
