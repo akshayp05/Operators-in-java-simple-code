@@ -1,0 +1,12 @@
+public class RelationalOperatorDemo {
+	static int x=20,y=30,z=20,a=34;
+	
+	public static void main(String[] args) {
+		System.out.println("x not equale z:"+(x!=z));
+		System.out.println("a is greter than:"+(a>x));
+		System.out.println("cheack euallity:"+(a==x));
+		System.out.println("cheack all:"+(x>=a));
+                System.out.println(20<<26);
+		System.out.println(a<<3);
+	}
+	}
