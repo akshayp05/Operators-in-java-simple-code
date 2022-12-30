@@ -1,0 +1,36 @@
+xample:-
+public class LogicalOperatorsDemo {
+	static int x=50;
+	static int y=20;
+	static int c=20;
+	public void AndGate() {
+		if ((y<x)&&(y==c)) {
+			int d=x+y+c;
+			System.out.println("The sum is:"+d);
+		}else {
+			System.out.println("addition fail");
+		}
+	}
+	public void ORgate() {
+		if ((y>x)||(c==y)) {
+			int z=x*y;
+			System.out.println("multiflication is:"+z);
+		}else {
+			System.out.println("not found");
+		}
+		}
+	public void NotGate() {
+		if( (x!=y)!=(y==c)){
+			int f=x/y;
+			System.out.println("dividation:"+f);
+		}else {
+			System.out.println("not valid");
+		}
+	}
+	public static void main(String[] args) {
+		LogicalOperatorsDemo ld=new LogicalOperatorsDemo();
+		ld.AndGate();
+		ld.ORgate();
+		ld.NotGate();
+	}
+}
